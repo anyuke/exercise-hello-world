@@ -5,4 +5,4 @@ RUN npm install
 COPY ./ ./
 RUN npm run build
 EXPOSE 7001
-CMD ["sh", "-c", "npm run start" ]
+CMD npm run start
